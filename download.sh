@@ -7,7 +7,7 @@ then
   mkdir $DATA_DIR
 fi
 
-for YEAR in {2008..2020}
+for YEAR in {2009..2009}
 do
     FILE=quotes-${YEAR}.json
     wget https://zenodo.org/record/4277311/files/${FILE}.bz2
@@ -18,6 +18,8 @@ do
     PROCESSED=quotes-${YEAR}-processed.json
     python scripts/merge.py --file=${PROCESSED}
     mv ${PROCESSED} ${DATA_DIR}
+    MERGED=quotes-${YEAR}-merged.json
+    mv ${MERGED} ${DATA_DIR}
 done
 
 cat $(echo ${DATA_DIR}/*-merged.json) > $DATA_DIR/union.json

@@ -4,7 +4,7 @@ from argparse import ArgumentParser
 from tqdm import tqdm
 from string import punctuation
 from fuzzywuzzy import fuzz
-from .utils import iterator_from_file
+from utils import iterator_from_file
 
 
 def transform_to_dict(line: str) -> dict:

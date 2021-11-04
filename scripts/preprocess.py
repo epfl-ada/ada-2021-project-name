@@ -4,6 +4,7 @@ from argparse import ArgumentParser
 from tqdm import tqdm
 from string import punctuation
 from fuzzywuzzy import fuzz
+from .utils import iterator_from_file
 
 
 def transform_to_dict(line: str) -> dict:
@@ -39,12 +40,6 @@ def filter_punctuation(row: dict):
 def lowercase_(row: dict):
     row["q"] = row["q"].lower()
     return row
-
-
-def iterator_from_file(file_name):
-    with open(file_name, "r") as file:
-        for line in file:
-            yield line
 
 
 def filter_tags(rows: dict, tags: list) -> bool:

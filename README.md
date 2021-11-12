@@ -44,12 +44,13 @@ It consists of four main steps:
 ### Rest of the methods !!!!!!!!!!
 
 ## Organization:
----
+
 - **Narek Alvandian**:Basic structure of repo and notebook, Analysis and extraction of results, Machine Learning programming, Coding up the algorithm.
 - **Amine Tourki**:Notebook and report writing, Problem formulation, Analysis and extraction of results, Coding up the algorithm, Visualizations and plots.
 - **Maksim Zubkov**: Data cleaning and preprocessing, First hands on with the dataset, Cleaning and commenting the code,Website design.
 - **Emna Tourki**:Analysis and extraction of results, Running tests, Notebook and report writing, Cleaning and commenting the code.
 
+## Proposed Timeline
 
 
 

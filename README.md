@@ -1,7 +1,7 @@
 # What's trending ?
- ---
+ 
 ## Abstract
----
+
 Trends in our society are very versatile. They can originate from a specific community or grow from a general opinion. The nature of topics trending at a certain time can reflect the general state of a country or even the world. Some topics can trend for only a few weeks or months while others become an established subject of discussion.  
 A trending topic can also propagate from country to country or from group to group. It can be very hard to predict what will happen to a given trend at a certain point. Will it grow ? will it halt ? for how long will this trend stay ?   
 The story that we would like to present is about how trends in our society propagate. Who are the main actors that led a certain topic to trend and how that trend propagated over the different groups of persons.  
@@ -9,19 +9,19 @@ Given the extensive amount of worldwide trends over the past years, this project
 
 
 ## Research questions 
----
+
 - When did the trend start and from which group of people ?
 - How did the trend spread among the different groups (with respect to occupations , genders and age) and over the years ?
 - Given a trend, can we detect when its major events occurred?
 
 ## Opportunity for further analysis
----
+
 Given the scale of this project, we will only be able to respond to a few but major questions. Additional interesting research questions include: 
 - How did the genral opinion over a trend affect its propagation ? 
-- Cann a trend be the consequence of another trend ? 
+- Can a trend be the consequence of another trend ? 
 
 ## Dataset 
----
+
 For this project we will primarly use:
 - The Quotebank dataset, which contains over 178 million quotations extracted from 162 million English news articles published between 2008 and 2020. 
 - The Wikidata dataset, an open knowledge base of over 90 million data items that acts as the structural data for sites such as Wikipedia, Wikisource and others...  
@@ -29,7 +29,7 @@ For this project we will primarly use:
 (Potential dataset: google trends)
 
 ## Methods 
---- 
+
 ### Data download, filtering, and transformation
 For end-to-end data preprocessing, run the following command:
 ```bash

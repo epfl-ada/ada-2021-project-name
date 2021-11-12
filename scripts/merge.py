@@ -6,6 +6,10 @@ import json
 from utils import iterator_from_file
 from urllib.error import HTTPError
 
+"""
+Joining additional information from Wikidata
+"""
+
 id2gender = {
     "Q6581097": "male",
     "Q6581072": "female"

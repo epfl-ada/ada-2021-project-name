@@ -50,8 +50,6 @@ It consists of four main steps:
 * Merging data with `WikiData` with `merge.py`.
 * Collecting vocabularies to match `WikiData` ids to human-readable entities with `build_vocab.py`.
 
-=======
-
 ## Organization:
 
 - **Narek Alvandian**. Data preprocessing and analysis, Machine Learning programming, potentially WEB development.

@@ -6,6 +6,9 @@ import json
 from utils import iterator_from_file
 from urllib.error import HTTPError
 
+"""
+Building vocabularies. Since requests to WikiData client requires a lot of time 
+"""
 
 def dump_vocab(path, ids):
     id2obj = {}

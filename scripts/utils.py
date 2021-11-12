@@ -3,6 +3,10 @@ from networkx.algorithms.components.connected import connected_components
 from fuzzywuzzy import fuzz
 from collections import defaultdict, Counter
 
+"""
+Usefull utils functions for both analysis notebook and downloading scripts
+"""
+
 def iterator_from_file(file_name):
     with open(file_name, "r") as file:
         for line in file:

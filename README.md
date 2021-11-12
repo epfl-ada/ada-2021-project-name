@@ -26,9 +26,19 @@ For this project we will primarly use:
 - The Quotebank dataset, which contains over 178 million quotations extracted from 162 million English news articles published between 2008 and 2020. 
 - The Wikidata dataset, an open knowledge base of over 90 million data items that acts as the structural data for sites such as Wikipedia, Wikisource and others...  
 
-(Potential dataset: google trends)
+(Potential additional dataset: google trends)
+
 
 ## Methods 
+When analyzing certain trend, we will first filter out unnecessary quotations. We do that by key-word matching. We expect certain trends and topics to be related to certain buzzwords, this way we can handle the huge amount of given data - by narrowing our attention only on certain quotes.
+
+Then will answer our research questions using data visualizations and descriptive statistics of the dataset. We will examine distributions of interesting key-words in quotations of people from different groups.
+
+Given we have time after implementing out main ideas, we are also thinking about using machine learning techniques to solve certain problems.
+
+- Firstly, we want to use word embeddings to find an actual speaker from the list of all matches from WikiData. The problem is, when we try to find additional info on a speaker using wikidata, there are multiple people with the same name and surname. We think we can solve this problem by comparing speaker's embedding to the embedding of the quote. Ideally, if speaker has the occupancy in the area of the quote's meaning - then the according embeddings will be nearby in the vector space
+- Secondly, we also think it would be interesting to look at the sentiment analysis of the quotes, and make visualizations of different statistics, related to the sentiment.
+
 
 ### Data download, filtering, and transformation
 For end-to-end data preprocessing, run the following command:
@@ -45,10 +55,10 @@ It consists of four main steps:
 
 ## Organization:
 
-- **Narek Alvandian**:Basic structure of repo and notebook, Analysis and extraction of results, Machine Learning programming, Coding up the algorithm.
-- **Amine Tourki**:Notebook and report writing, Problem formulation, Analysis and extraction of results, Coding up the algorithm, Visualizations and plots.
-- **Maksim Zubkov**: Data cleaning and preprocessing, First hands on with the dataset, Cleaning and commenting the code,Website design.
-- **Emna Tourki**:Analysis and extraction of results, Running tests, Notebook and report writing, Cleaning and commenting the code.
+- **Narek Alvandian**. Data preprocessing and analysis, Machine Learning programming, potentially WEB development.
+- **Amine Tourki**. Notebook and report writing, Problem formulation, Analysis and extraction of results, Coding up the algorithm, Visualizations and plots.
+- **Maksim Zubkov**. Data cleaning and preprocessing, Machine Learning programming, WEB development, Design.
+- **Emna Tourki**. Analysis and extraction of results, Running tests, Notebook and report writing, Cleaning and commenting the code.
 
 ## Proposed Timeline
 

@@ -103,7 +103,19 @@ def update_occupations(occupations_dict):
         "badminton", "athlete", "runner", "tennis", "dancer",
         "skier", "skating", "golfer", "skier", "mountaineer", 
         "surfer", "boxer", "sprinter", "skater", "aikidoka",
-        "swimmer", "ufc light heavyweight championship"
+        "swimmer", "ufc light heavyweight championship",
+        "ballerina", "ballet master", "bodybuilder", "bodybuilding",
+        "boxing trainer", "brazilian jiu-jitsu practitioner",
+        "formula one driver", "high jumper", "horse trainer",
+        "judoka", "long jumper", "motocross rider", "netballer",
+        "motorcycle development rider", "motorcycle rider",
+        "motorcycle trials rider", "mountain biker", "race car driver",
+        "racewalker", "racing automobile driver", "racing driver",
+        "rhythmic gymnast", "sambo fighter", "shot putter",
+        "show jumper", "skateboarder", "skeleton racer", "ski jumper",
+        "skipper", "snowboarder", "stock car racing", "track cycling",
+        "track cyclist", "trampoline gymnast", "wheelchair racer",
+        "athletics competitor", "choreographer", "wrestler"
     ]
 
     for k, v in occupations_dict.items():

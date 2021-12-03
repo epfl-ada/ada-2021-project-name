@@ -126,6 +126,28 @@ def update_occupations(occupations_dict):
             occupations_dict[k] = "video-game"
         elif "artist" in v:
             occupations_dict[k] = "artist"
+        elif "poet" in v:
+            occupations_dict[k] = "writer"
+        elif "software developer" in v:
+            occupations_dict[k] = "programmer"
+        elif "software engineer" in v:
+            occupations_dict[k] = "programmer"
+        elif "essayist" in v:
+            occupations_dict[k] = "writer"
+        elif "author" in v:
+            occupations_dict[k] = "writer"
+        elif "reporter" in v:
+            occupations_dict[k] = "journalist"
+        elif "statesperson" in v:
+            occupations_dict[k] = "politician"
+        elif "autobiographer" in v:
+            occupations_dict[k] = "writer"
+        elif "novelist" in v:
+            occupations_dict[k] = "writer"
+        elif "playwright" in v:
+            occupations_dict[k] = "writer"
+        elif "jurist" in v:
+            occupations_dict[k] = "lawyer"
         elif "actor" in v:
             occupations_dict[k] = "actor"
         elif "chief executive officer" in v:

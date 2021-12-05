@@ -115,7 +115,7 @@ def update_occupations(occupations_dict):
         "show jumper", "skateboarder", "skeleton racer", "ski jumper",
         "skipper", "snowboarder", "stock car racing", "track cycling",
         "track cyclist", "trampoline gymnast", "wheelchair racer",
-        "athletics competitor", "choreographer", "wrestler"
+        "athletics competitor", "choreographer", "wrestler", "thrower"
     ]
 
     for k, v in occupations_dict.items():
@@ -145,6 +145,10 @@ def update_occupations(occupations_dict):
         elif "novelist" in v:
             occupations_dict[k] = "writer"
         elif "playwright" in v:
+            occupations_dict[k] = "writer"
+        elif "editor" in v:
+            occupations_dict[k] = "writer"
+        elif "typographer" in v:
             occupations_dict[k] = "writer"
         elif "jurist" in v:
             occupations_dict[k] = "lawyer"

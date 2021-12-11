@@ -78,4 +78,3 @@ It consists of four main steps:
 - Week5: 13.12.2019 - 17.12.2019
     * General testing.
     * Small design refinements and last minute fixes.
-

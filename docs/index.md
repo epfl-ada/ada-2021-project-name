@@ -9,20 +9,19 @@ In this project we will try to analyse the subject of cryptocurrency from differ
 Cryptocurrency was the hottest investment story of the 2010s. Though for most of the 2000s, it didn’t exist. Now, it’s hard to get through a single week without a new digital currency making headlines. With Bitcoin now trading around $50,000 per coin, it is certainly here to stay.  Bitcoin was the original cryptocurrency, and it remains the most famous, most widely accepted one. However, there are many mysteries around the crypto world. The concept of Bitcoin was published in a white paper written by an anonymous figure under the pseudonym Satoshi Nakamoto in 2008. No one knows the author’s true identity — or if it’s even a single person, rather than a group of people. The mystery behind the creator of Bitcoin and the crypto world in general has captured our attention. With this project, we want to tackle most of the  questions surrounding cryptocurrency and answer them only by analyzing the QuoteBank dataset . When did it start, and from which group of people? How did it spread among the different groups (concerning occupations, genders, and age) over the years? Can we detect when its major events occurred?     
 To answer these questions, we decided to study the story of cryptocurrency from 2008, the year of its creation up to 2017. Why up to 2017 only you might ask? In 2018, bitcoin became an international fever. Random companies were “pivoting to blockchain” creating a buzz. While it was a major year in the story of cryptocurrency, it put cryptocurrency in the spotlight and caused different persons among different groups to speak up. In order to analyze data that is coherent, we chose to cut the analysis in the year 2017.
 
-1) How did the trend spread among the different groups (concerning occupations, genders, and age) over the years?  
+### How did the trend spread among the different occupation groups over the years?  
 
 Let’s see the distribution over time of the occupation of the people that talked the most about blockchain and cryptocurrency.
-  
+
 {% include  quotes_by_occupation_slider_years.html %}  
 
 As we can see, it started in 2008 with a specific group of people which are cryptographers , politicians , programmers , businesspersons , and scientists. We see these 5 groups speak up about cryptocurrency every year more or less. The first years until 2012 , programmers and politicians were taking the lead in the number of occurrences. Starting 2013 and until 2017, the businesspersons took the lead while the economists also started to speak up more starting 2014. 
 In the year 2013, many lawyers spoke up about blockchain and cryptocurrency.It is an interesting observation since in that year bitcoin witnessed major developments in the legal framework and has received widespread attention from newspapers.  
 In the years 2015 and 2016, the media group made its appearance among the top 5 occupations.  
 
-Now let’s see how fast did the Bitcoin/Cryptocurrency hype spread in different professional groups.
+#### Now let’s see how fast did the Bitcoin/Cryptocurrency hype spread inside those different professional groups.
 
 {% include  accumulated_quotation_count_by_occupations.html %}
-
 
 Here we can see that the rate was approximately the same until 2014, and after that businessmen started talking exponentially more… This quite makes sense, since in 2014 the whole world was discussing the event that we mentioned previously - the hack of the biggest crypto exchange. It is believed that there is no such thing as bad publicity, and that nicely plays with what we see here. Even thought the noticeable event was negative, it was an important starting point which drew attention of businesses to this technology, and after that - the topic spread faster and faster in the group.
 
@@ -60,37 +59,39 @@ This visualization also shows us when these people joined the public bitcoin dis
 Craig wright started mid 2014, while Vitalik’s phrases were already noted in 2012.  
 
 
-### Can we find simillarities in speakers' quotes, depending on their occupation?
+### Can we find the "different clusters of meaning" from the quotes about cryptocurrencies?
 
-- Plot a scatter of the embeddings (reduce dimensionality with PCA/UMAP/T-SNE) and color the dots by occution/gender/age
+It would be nice if we could shortly answer the question: "What is all this crypto buzz about?". 
+
+To find that answer we extracted "the meaning" of each quote by getting the embeddings of a language model, called "Sentence BERT". Now instead of reading every quote and trying to summarize it, we can project the "vectors of meaning" into the 2D space, and see whether we have clusters or not. Having a cluster would mean having a "general meaning" for all the quotes in that cluster. 
+
+Below we can see the results. 
 
 {% include  embeddings.html %}
 
 
-#### Cluster 1 
-Mainly consists of economists:
->  "Who cares about bitcoin"
+We randomly selected the algorithm to find 7 clusters, and it looks like we have a nice separation. We've selected some phrases from some of the clusters. 
 
-> "Bitcoin remains a major gamble as it is very much an asset that remains in uncharted waters weve simply not experienced this before"
+#### Summary from cluster number 1: "Mainly boomer economists being mean to bitcoin"
+>  "Who cares about bitcoin" - Jamie Dimon
 
-> "Bitcoin in particular has had i think three hyperinflation episodes this year"
+> "Bitcoin remains a major gamble as it is very much an asset that remains in uncharted waters weve simply not experienced this before" - Jamie Dimon
 
-#### Cluster 5
-Consists of businessmen being bullish on crypto:
-> "The legitimacy this gives bitcoin as a tradeable asset is very important"
+> "Bitcoin in particular has had i think three hyperinflation episodes this year" - Paul Donovan
 
-> "I firmly believe that bitcoin and the blockchain can change the world for the better"
-    
-> "I have invested in some bitcoins myself and find it fascinating how a whole new global currency has been created"
+#### Summary from cluster 5: "Businessmen found a new way to become even richer":
+> "I have invested in some bitcoins myself and find it fascinating how a whole new global currency has been created" - Richard Branson
 
-#### Cluster 6
+> "The legitimacy this gives bitcoin as a tradeable asset is very important" - Neil Wilson
 
-Cryptographers being smart:
+> "I firmly believe that bitcoin and the blockchain can change the world for the better" - Craig Wright
 
-> "One unintended consequence of quantum computation is breaking some of the cryptographic tools currently underpinning cybersecurity"
+#### Summary from cluster 6: "Cryptopeople being smart":
 
-> "Any cryptographic function is a one way street"
+> "My recommendation for people who dont have 10 years experience in cryptography is to return to old methods and use the traditional postal service" - Julian Assange
 
-> "My recommendation for people who dont have 10 years experience in cryptography is to return to old methods and use the traditional postal service"
+> "One unintended consequence of quantum computation is breaking some of the cryptographic tools currently underpinning cybersecurity" - Michele Mosca
 
-> "Cryptography forms the basis for trust online"
+> "Cryptography forms the basis for trust online" - Bruce Schneie
+
+We see that it is possible to summarize the quotes, and group them by their meaning. This way we can group people by their opinion, and potentially find groups of people having the same opinion and spreading a simmilar message about the trendy topic.

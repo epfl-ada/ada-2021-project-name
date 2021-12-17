@@ -1,4 +1,4 @@
-## "I've read that cryptoccurency is \*enter random information\*"
+## Hashing through the crypto
 
 ### "Words are chameleons, which reflect the color of their environment." —Learned Hand
 
@@ -27,8 +27,9 @@ Here we can see that the rate was approximately the same until 2014, and after t
 
 We can also see that economists’ rate became much steeper in late 2016, since it was the time when bitcoin hit the unheard price of ~$20k. Economist started discussing how volatile it is, or how bitcoin will become the future of human economy. 
 
-Below is shown the distribution of speakers' citizenship. Just to make sure that the biggest part of the crypto party is hapenning in the United States.
+Below is shown the chart which shows the distribution of speakers' citizenship (taking into account the biggest parts). Just to make sure that the biggest part of the crypto party is hapenning in the United States.
 
+We can se that the majority of the speakers are from the United States of America. We can also see that, other than the US, the distribution isn't very skewed towards one particular citizenship. This may imply that Bitcoin has became a worldwide topic.
 {% include speakers_citizenship_pie.html %}
 
 ### Finding important events in the history of Bitcoin.

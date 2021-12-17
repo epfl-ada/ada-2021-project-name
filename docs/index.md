@@ -1,4 +1,4 @@
-## Hashing through the crypto
+# Hashing out the crypto talk
 
 ### "Words are chameleons, which reflect the color of their environment." —Learned Hand
 

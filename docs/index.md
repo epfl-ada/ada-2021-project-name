@@ -1,4 +1,4 @@
-## "I've read that cryptoccurency is *enter random information*"
+## "I've read that cryptoccurency is \*enter random information\*"
 
 ### "Words are chameleons, which reflect the color of their environment." —Learned Hand
 
@@ -65,15 +65,15 @@ Craig wright started mid 2014, while Vitalik’s phrases were already noted in 2
 
 
 #### Cluster 1 
-Economists say:
+Mainly consists of economists:
 >  "Who cares about bitcoin"
 
 > "Bitcoin remains a major gamble as it is very much an asset that remains in uncharted waters weve simply not experienced this before"
 
-> Economist: "Bitcoin in particular has had i think three hyperinflation episodes this year"
+> "Bitcoin in particular has had i think three hyperinflation episodes this year"
 
 #### Cluster 5
-Businessmen say:
+Consists of businessmen being bullish on crypto:
 > "The legitimacy this gives bitcoin as a tradeable asset is very important"
 
 > "I firmly believe that bitcoin and the blockchain can change the world for the better"
@@ -82,10 +82,11 @@ Businessmen say:
 
 #### Cluster 6
 
-Cryptographers:
-> "Any cryptographic function is a one way street"
+Cryptographers being smart:
 
 > "One unintended consequence of quantum computation is breaking some of the cryptographic tools currently underpinning cybersecurity"
+
+> "Any cryptographic function is a one way street"
 
 > "My recommendation for people who dont have 10 years experience in cryptography is to return to old methods and use the traditional postal service"
 

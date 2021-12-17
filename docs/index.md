@@ -27,11 +27,11 @@ Here we can see that the rate was approximately the same until 2014, and after t
 
 We can also see that economists’ rate became much steeper in late 2016, since it was the time when bitcoin hit the unheard price of ~$20k. Economist started discussing how volatile it is, or how bitcoin will become the future of human economy. 
 
-#### Distribution by citizenship
+Below is shown the distribution of speakers' citizenship. Just to make sure that the biggest part of the crypto party is hapenning in the United States.
+
 {% include speakers_citizenship_pie.html %}
 
-
-### Finding note-worthy events in the history of Bitcoin.
+### Finding important events in the history of Bitcoin.
 
 Let's take a look at the graph of quote occurrences over the years:
 
@@ -85,7 +85,7 @@ We randomly set our algorithm to find 7 clusters, and it looks like we have a ni
 
 > "Bitcoin in particular has had i think three hyperinflation episodes this year" - Paul Donovan
 
-#### Summary from cluster 5: "Businessmen found a new way to become even richer":
+#### Summary from cluster 5: "Businessmen found a new way to become richer":
 > "I have invested in some bitcoins myself and find it fascinating how a whole new global currency has been created" - Richard Branson
 
 > "The legitimacy this gives bitcoin as a tradeable asset is very important" - Neil Wilson

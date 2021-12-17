@@ -1,4 +1,4 @@
-## What's trending?
+## "I've read that cryptoccurency is *enter random information*"
 
 ### "Words are chameleons, which reflect the color of their environment." —Learned Hand
 

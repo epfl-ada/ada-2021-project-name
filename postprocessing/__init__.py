@@ -1,5 +1,5 @@
 from .occupations_labeling import update_occupations, upd_single_occ
-from .filter import filter_irrelevant
+from .filter import filter_irrelevant, select_occupation
 from .merge_occupations import (
     to_edges,
     to_graph,

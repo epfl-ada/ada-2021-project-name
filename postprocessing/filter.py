@@ -1,3 +1,5 @@
+from collections import defaultdict, Counter
+
 def filter_irrelevant(x):
     return (" a bit " not in x) and \
         (" little bit " not in x) and \
@@ -49,3 +51,30 @@ def filter_irrelevant(x):
         (" bitwarden " not in x) and \
         (" bitwarden" not in x) and \
         ("bitwarden " not in x)
+
+
+def select_occupation(x, occupations_dict, prefered_occs):
+    output = []
+    for elem in x:
+        if elem is not None:
+            output += list(occupations_dict[e] for e in elem)
+    output = [o for o in output if o != "cryptozoologist"]
+    result = [item for item, c in Counter(output).most_common()]
+    if not output:
+        return None
+    else:
+        for o in output:
+            if "crypto" in o:
+                return o
+
+        if len(output) > 1:
+            for n in prefered_occs:
+                if n in output:
+                    return n
+
+        first = output[0].strip()
+        if first in ["sport", "writer", "media"]:
+            if len(output) > 1:
+                return output[1]
+        else:
+            return output[0]

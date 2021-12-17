@@ -18,7 +18,8 @@ Blockchain and the cryptocurrency are a hot topic at the moment. But how did it 
 It is important to recognize people, who are truly leading the crypto-discussion.
 
 With this project, we want to tackle most of these  questions surrounding cryptocurrency and answer them by analyzing the QuoteBank dataset.     
-To answer these questions, we decided to study the story of cryptocurrency from 2008, the year of its creation up to 2017. Why up to 2017 only you might ask? In 2018, bitcoin became an international fever. Random companies were “pivoting to blockchain” creating a buzz. While it was a major year in the story of cryptocurrency, it put cryptocurrency in the spotlight and caused different persons among different groups to speak up. In order to analyze data that is coherent, we chose to cut the analysis in the year 2017.
+
+To reach our goal, we decided to study the story of cryptocurrency from 2008, the year of its creation up to 2017. Why up to 2017 only you might ask? In 2018, bitcoin became an international fever. Random companies were “pivoting to blockchain” creating a buzz. While it was a major year in the story of cryptocurrency, it put cryptocurrency in the spotlight and caused different persons among different groups to speak up. In order to analyze data that is coherent, we chose to cut the analysis in the year 2017.
 
 ### How did the crypto-popularity spread among the different occupation groups over the years?  
 
@@ -26,7 +27,7 @@ Let’s see the distribution over time of the occupation of the people that talk
 
 {% include  quotes_by_occupation_slider_years.html %}  
 
-As we can see, it started in 2008 with a specific group of people which are cryptographers , politicians , programmers , businesspersons , and scientists. We see these groups speak up about cryptocurrency every year more or less. The first years until 2012 , programmers and politicians were taking the lead in the number of occurrences. Starting 2013 and until 2017, the businesspersons took the lead while the economists also started to speak up more starting 2014. 
+As we can see, it started in 2008 with a specific group of people which were mostly cryptographers and programmers. We see these groups speak up about cryptocurrency every year more or less. The first years until 2012 , programmers and politicians were taking the lead in the number of occurrences. Starting 2013 and until 2017, the businesspersons took the lead while the economists also started to speak up more starting 2014. 
 In the year 2013, many lawyers spoke up about blockchain and cryptocurrency.It is an interesting observation since in that year bitcoin witnessed major developments in the legal framework and has received widespread attention from newspapers.  
 In the years 2015 and 2016, the media group made its appearance among the top 5 occupations.  
 

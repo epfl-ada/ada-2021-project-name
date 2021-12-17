@@ -6,9 +6,18 @@
 What if from spoken words, we can analyze a new topic that somehow made a big impact on these last few years ? 
 In this project we will try to analyse the subject of cryptocurrency from different angles using only the quotes provided by the QuoteBank dataset.  
 ### Why Cryptocurrency ?  
-Cryptocurrency was the hottest investment story of the 2010s. Though for most of the 2000s, it didn’t exist. Now, it’s hard to get through a single week without a new digital currency making headlines. With Bitcoin now trading around $50,000 per coin, it is certainly here to stay.  Bitcoin was the original cryptocurrency, and it remains the most famous, most widely accepted one. However, there are many mysteries around the crypto world. The concept of Bitcoin was published in a white paper written by an anonymous figure under the pseudonym Satoshi Nakamoto in 2008. No one knows the author’s true identity — or if it’s even a single person, rather than a group of people. The mystery behind the creator of Bitcoin and the crypto world in general has captured our attention. 
-Blockchain and the cryptocurrency are a hot topic at the moment.But how did it become a trend? who started the wave, and who joined it after the hype began? How did it spread among the different groups over the years? what events received widespread attention and caused different persons to speak up?
-With this project, we want to tackle most of these  questions surrounding cryptocurrency and answer them only by analyzing the QuoteBank dataset .     
+
+Cryptocurrency was the hottest investment story of the 2010s. Though for most of the 2000s, it didn’t exist. Now, it’s hard to get through a single week without a new digital currency making headlines. With Bitcoin now trading around $50,000 per coin, it is certainly here to stay.  Bitcoin was the original cryptocurrency, and it remains the most famous, most widely accepted one. However, there are many mysteries around the crypto world. The concept of Bitcoin was published in a white paper written by an anonymous figure under the pseudonym Satoshi Nakamoto in 2008. No one knows the author’s true identity — or if it’s even a single person, rather than a group of people. 
+
+> -Knock Knock! -Who's there? -Satoshi Nakamoto. -Satoshi Nakamoto who? -I guess we’ll never know.
+ 
+The hype around the crypto world in general has captured our attention. 
+
+Blockchain and the cryptocurrency are a hot topic at the moment. But how did it become a trend? Who started the wave, and who joined it after the hype began? How did it spread among the different groups over the years? what events received widespread attention and caused different persons to speak up?
+
+It is important to recognize people, who are truly leading the crypto-discussion.
+
+With this project, we want to tackle most of these  questions surrounding cryptocurrency and answer them by analyzing the QuoteBank dataset.     
 To answer these questions, we decided to study the story of cryptocurrency from 2008, the year of its creation up to 2017. Why up to 2017 only you might ask? In 2018, bitcoin became an international fever. Random companies were “pivoting to blockchain” creating a buzz. While it was a major year in the story of cryptocurrency, it put cryptocurrency in the spotlight and caused different persons among different groups to speak up. In order to analyze data that is coherent, we chose to cut the analysis in the year 2017.
 
 ### How did the crypto-popularity spread among the different occupation groups over the years?  

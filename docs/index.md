@@ -20,12 +20,12 @@
 - Show the graph with the shifted quote occurrences
 
 {% include  quote_occurence_7day_ma.html %}
-{% include  quote_occurence_change_by_date.html %}
+{% include  accumulated_quotation_share_by_speaker.html %}
+{% include  accumulated_quotation_count_by_occupations.html %}
 
-- Take the couple of the events with the highest peaks and look more carefully into what happened there
-- Show the graphs with time series segmentation
 
 3) Can we see the clusters of "meaning" depending on the occupation/age/year/gender.
 
 - Plot a scatter of the embeddings (reduce dimensionality with PCA/UMAP/T-SNE) and color the dots by occution/gender/age
 
+{% include  embeddings.html %}

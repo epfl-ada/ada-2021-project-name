@@ -1,25 +1,24 @@
-# How trends propagate?
+# Hashing out the crypto talk
  
 ## Abstract
 
-Trends in our society are very versatile. They can originate from a specific community or grow from a general opinion. The nature of topics trending at a particular time can reflect the general state of a country or even the world. Some issues can trend for only a few weeks or months while others become an established subject of discussion.  
-A trending topic can also propagate from country to country or from group to group. It can be tough to predict what will happen to a given trend at a certain point. Will it grow? Will it halt? For how long will this trend stay?   
-The story that we would like to present is about how trends in our society propagate. Who are the main actors who led a specific topic to movement, and how does that trend propagate over different groups?  
-Given the extensive amount of worldwide trends over the past years, this project will tackle only a few trends (blockchain, global warming...) and analyze their propagation in our society.
+Trends in our society are very versatile. They can originate from a specific community or grow from a general opinion. The nature of topics trending at a particular time can reflect the general state of a country or even the world. Some issues can trend for only a few weeks or months while others become an established subject of discussion.      
+Among the many subjects that were trending these last few years, Blockchain and cryptocurrency are probably the most recurring. These topics are also one of the most complex to apprehend, and even though they seem hard to tackle, multiple communities rapidly adopted them, from athletes to social media influencers. What seemed at first a topic exclusive to experts became a worldwite buzz.     
+The story that we would like to present is about how and why did cryptocurrency and blockchain gain popularity as a hot topic ? Who are the main actors that started this topic, and how did it propagate over different groups?  
 
-Given the extensive amount of worldwide trends over the past years, this project will tackle only a few trends (i.e. blockchain , global warming, feminism) and analyse their propagation in our society.
 
 ## Research questions 
 
-- When did the trend start, and from which group of people?
-- How did the trend spread among the different groups (concerning occupations, genders, and age) over the years?
-- Given a trend, can we detect when its major events occurred?
+- When did cryptocurrency/blockchain became a popular topic ?
+- How did its popularity spread among the different groups (concerning occupations, genders, and age) over the years?
+- What are the major events that led to this development ?
 
 ## Opportunity for further analysis
 
-Given the scale of this project, we will only be able to respond to a few but significant questions. Additional exciting research questions include: 
-- How did the general opinion over a trend affect its propagation? 
-- Can a trend be the consequence of another trend? 
+Blockchain and cryptocurrency are very heavy topics to present. While we are only going to analyze how they came to grow in popularity and among which groups that happened, a few other questions are worth responding to:
+- How did the rise of cryptocurrency affect the political and financial spheres ?
+- Who are the communities that welcomed or denied cryptocurrency the most ? 
+- Was blockchain/ cryptocurrency responsible for the rise in popularity of other topics ? like cybersecurity for exemple ?
 
 ## Dataset 
 
@@ -29,7 +28,7 @@ For this project, we will primarily use:
 
 
 ## Methods 
-When analyzing a certain trend, we will first filter out unnecessary quotations. We do that by keyword matching. We expect specific trends and topics to be related to certain buzzwords. This way, we can handle the massive amount of given data - by narrowing our attention to particular quotes.
+When analyzing the data, we will first filter out unnecessary quotations. We do that by keyword matching. We expect cryptocurrency/blockchain to be related to certain buzzwords. This way, we can handle the massive amount of given data - by narrowing our attention to particular quotes.
 
 Then will answer our research questions using data visualizations and descriptive statistics of the dataset. We will examine distributions of interesting keywords in quotations of people from different groups.
 
@@ -60,7 +59,7 @@ It consists of four main steps:
 ## Proposed Timeline
 
 - Week1: 15.11.2021 - 21.11.2021
-    * Decide on the other trends we will analyse and prepare their data. 
+    * Decide on the data to analyse and datasets to use. 
     * Solve specific problems related to our dataset(Find the actual speaker from the list of all matches from WikiData, etc).
 
 - Week2: 22.11.2021 - 28.11.2021

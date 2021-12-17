@@ -7,10 +7,12 @@ from collections import defaultdict, Counter
 Usefull utils functions for both analysis notebook and downloading scripts
 """
 
+
 def iterator_from_file(file_name):
     with open(file_name, "r") as file:
         for line in file:
             yield line
+
 
 def to_graph(cliques):
     G = networkx.Graph()
@@ -19,6 +21,7 @@ def to_graph(cliques):
         G.add_edges_from(to_edges(cli))
     return G
 
+
 def to_edges(l):
     it = iter(l)
     last = next(it)
@@ -26,7 +29,8 @@ def to_edges(l):
     for current in it:
         yield last, current
         last = current
-    
+
+
 def drop_similar(occupations_dict):
     occ_lst = list(set(occupations_dict.keys()))
 
@@ -54,6 +58,7 @@ def drop_similar(occupations_dict):
                 occupations_dict[e] = name
     return occupations_dict
 
+
 def filter_rare_occupations(x, occ_freq):
     ids = defaultdict(list)
     for i, occ_ids in enumerate(x["occupation_ids"]):
@@ -66,6 +71,7 @@ def filter_rare_occupations(x, occ_freq):
         if elem:
             x["occupation_ids"][i] = [e for j, e in enumerate(x["occupation_ids"][i]) if j in elem]
     return x
+
 
 def filter_outlier_wikidata(x):
     if len(x["gender"]) > 1:
@@ -93,77 +99,3 @@ def filter_outlier_wikidata(x):
                 new_occupations.append(x["occupation_ids"][i])
         x["birth"], x["occupation_ids"], x["gender"], x["citizenship_id"] = new_birth, new_occupations, new_genders, new_citizenship
     return x
-
-def update_occupations(occupations_dict):
-    sport_words = [
-        "sport", "archer", "player", 'football', 
-        "cricket", "rugby", 'basketball', "biathlon", 
-        "hockey", "fitness", "gymnastics", "baseball",
-        "wrestling", "curling", "handball", "bobsledder",
-        "badminton", "athlete", "runner", "tennis", "dancer",
-        "skier", "skating", "golfer", "skier", "mountaineer", 
-        "surfer", "boxer", "sprinter", "skater", "aikidoka",
-        "swimmer", "ufc light heavyweight championship",
-        "ballerina", "ballet master", "bodybuilder", "bodybuilding",
-        "boxing trainer", "brazilian jiu-jitsu practitioner",
-        "formula one driver", "high jumper", "horse trainer",
-        "judoka", "long jumper", "motocross rider", "netballer",
-        "motorcycle development rider", "motorcycle rider",
-        "motorcycle trials rider", "mountain biker", "race car driver",
-        "racewalker", "racing automobile driver", "racing driver",
-        "rhythmic gymnast", "sambo fighter", "shot putter",
-        "show jumper", "skateboarder", "skeleton racer", "ski jumper",
-        "skipper", "snowboarder", "stock car racing", "track cycling",
-        "track cyclist", "trampoline gymnast", "wheelchair racer",
-        "athletics competitor", "choreographer", "wrestler", "thrower",
-        "trumpeter", "dressage rider", "jockey", "rower",
-    ]
-
-    for k, v in occupations_dict.items():
-        for sport_word in sport_words:
-            if sport_word in v:
-                occupations_dict[k] = "sport"
-        if "game" in v:
-            occupations_dict[k] = "video-game"
-        elif "artist" in v:
-            occupations_dict[k] = "artist"
-        elif "poet" in v:
-            occupations_dict[k] = "writer"
-        elif "software developer" in v:
-            occupations_dict[k] = "programmer"
-        elif "software engineer" in v:
-            occupations_dict[k] = "programmer"
-        elif "essayist" in v:
-            occupations_dict[k] = "writer"
-        elif "author" in v:
-            occupations_dict[k] = "writer"
-        elif "reporter" in v:
-            occupations_dict[k] = "journalist"
-        elif "statesperson" in v:
-            occupations_dict[k] = "politician"
-        elif "autobiographer" in v:
-            occupations_dict[k] = "writer"
-        elif "novelist" in v:
-            occupations_dict[k] = "writer"
-        elif "playwright" in v:
-            occupations_dict[k] = "writer"
-        elif "editor" in v:
-            occupations_dict[k] = "writer"
-        elif "columnist" in v:
-            occupations_dict[k] = "writer"
-        elif "typographer" in v:
-            occupations_dict[k] = "writer"
-        elif "jurist" in v:
-            occupations_dict[k] = "lawyer"
-        elif "actor" in v:
-            occupations_dict[k] = "actor"
-        elif "chief executive officer" in v:
-            occupations_dict[k] = "executive-director"
-        elif "chief creative officer" in v:
-            occupations_dict[k] = "creative-director"
-        elif "chief technology officer" in v:
-            occupations_dict[k] = "technology-director"
-        elif "chief operating officer" in v:
-            occupations_dict[k] = "operating-director"
-    return occupations_dict
-            

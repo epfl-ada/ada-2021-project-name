@@ -1,5 +1,7 @@
 # Hashing out the crypto talk
- 
+
+Datastory: https://epfl-ada.github.io/ada-2021-project-name/ 
+
 ## Abstract
 
 Trends in our society are very versatile. They can originate from a specific community or grow from a general opinion. The nature of topics trending at a particular time can reflect the general state of a country or even the world. Some issues can trend for only a few weeks or months while others become an established subject of discussion.      
@@ -32,11 +34,7 @@ When analyzing the data, we will first filter out unnecessary quotations. We do 
 
 Then will answer our research questions using data visualizations and descriptive statistics of the dataset. We will examine distributions of interesting keywords in quotations of people from different groups.
 
-Given we have time after implementing our main ideas, we are also thinking about using machine learning techniques to solve particular problems.
-
-- Firstly, we want to use word embeddings to find an actual speaker from the list of all matches from WikiData. When we try to find additional info on a speaker using Wikidata, multiple people have the same name and surname. We think we can solve this problem by comparing the speaker's embedding to the embedding of the quote. Ideally, if the speaker has the occupancy in the area of the quote's meaning - then the according to embeddings will be nearby in the vector space
-- Secondly, we also think it would be interesting to look at the sentiment analysis of the quotes and visualize different statistics related to the sentiment.
-
+We also used Sentence BERT network and T-SNE clustering algorithm for comparing the "meaning" of different quotes
 
 **Data download, filtering, and transformation**  
 For end-to-end data preprocessing, run the following command:
@@ -48,6 +46,10 @@ It consists of four main steps:
 * Transformation of the data and selecting the quotes relevant to `bitcoin`, `crypto`, and related topics with `preprocess.py`.
 * Merging data with `WikiData` with `merge.py`.
 * Collecting vocabularies to match `WikiData` ids to human-readable entities with `build_vocab.py`.
+
+\*During the preprocessing we noted that there were quite a lot of people with no occupation.  In our case this meant that they don’t actually have a wiki page. And this in turn meant that they were not famous. We had to google those people by hand, and add their occupations from «linked.in» «Facebook», and potentially other sources… This cost us quite some time……
+
+We’ve also merged by hand quite a lot of occupations into bigger groups. For example all the potential sports, manager positions, different types of business, media activity and so on…
 
 ## Organization:
 

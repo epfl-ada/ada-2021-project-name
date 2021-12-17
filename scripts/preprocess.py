@@ -4,8 +4,11 @@ from argparse import ArgumentParser
 from tqdm import tqdm
 from string import punctuation
 from fuzzywuzzy import fuzz
-from utils import iterator_from_file
 
+def iterator_from_file(file_name):
+    with open(file_name, "r") as file:
+        for line in file:
+            yield line
 
 def transform_to_dict(line: str) -> dict:
     row = json.loads(line)

@@ -28,6 +28,9 @@ Here we can see that the rate was approximately the same until 2014, and after t
 
 We can also see that economists’ rate became much steeper in late 2016, since it was the time when bitcoin hit the unheard price of ~$20k. Economist started discussing how volatile it is, or how bitcoin will become the future of human economy. 
 
+## Distribution by citizenship
+{% speakers_citizenship_pie.html %}
+
 
 ### Finding note-worthy events in the history of Bitcoin.
 

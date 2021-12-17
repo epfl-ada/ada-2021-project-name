@@ -29,14 +29,14 @@ Here we can see that the rate was approximately the same until 2014, and after t
 We can also see that economists’ rate became much steeper in late 2016, since it was the time when bitcoin hit the unheard price of ~$20k. Economist started discussing how volatile it is, or how bitcoin will become the future of human economy. 
 
 
-2) When were the most «Popularity growing» events
+### Finding note-worthy events in the history of Bitcoin.
 
 Let's take a look at the graph of quote occurrences over the years:
 
 {% include  quote_occurence_7day_ma.html %}  
 
-We can clearly see in this graph four major peaks: February 2014, September 2015, May 2016 and December 2017. This sudden increase in quotes can be traced to important events that happened in the crypto community:  
-- February 2014: The world's largest bitcoin exchange, Mt. Gox, declared bankruptcy. The company stated that it had lost nearly $473 million of their customers' bitcoins likely due to theft, which Mt. Gox blamed on hackers who exploited transaction malleability problems in the network. This was equivalent to approximately 750,000 bitcoins, or about 7% of all the bitcoins in existence. The price of a bitcoin fell from a high of about $1,160 in December to under $400 in February.
+We can clearly see in this graph four major peaks: February 2014, September 2015, May 2016 and December 2017. This sudden increase in quotes lead us to the important events that happened in the crypto community:  
+- February 2014: The world's largest bitcoin exchange, Mt. Gox, declared bankruptcy. The company stated that it had lost nearly $473 million of their customers' bitcoins. Mt. Gox blamed this on hackers who exploited transaction malleability problems in the network. This was equivalent to approximately 750,000 bitcoins, or about 7% of all the bitcoins in existence. The price of a bitcoin fell from a high of about $1,160 in December to under $400 in February.
 - September 2015: Ledger, the first peer-reviewed academic journal dedicated to cryptocurrency and blockchain technology research was announced. It covers studies of cryptocurrencies and related technologies, and is published by the University of Pittsburgh. The journal encourages the use of digitally signed hashfiles, which will then be time stamped into the bitcoin blockchain.   
 - May 2016: Multiple report were published alleging that the creator of bitcoin may be Craig Steven Wright, an Australian entrepreneur and former academic who has worked with K-Mart and the Australian Security Exchange. Then, on 2nd May, Wright publicly declared that he was, indeed, Nakamoto. This declaration created a big buzz in the cryptocurrency community given the position of Wright as one of the biggest figures in the domain.  
 - December 2017: Bitcoin's price briefly reached a new all-time in December 17, nearing $20k, creating a massive reaction in the financial world. As a reaction to the ever growing price of bitcoin, the Software market Steam, announced that it would no longer accept bitcoin as payment for its products, citing slow transactions speeds, price volatility, and high fees for transactions.
@@ -57,8 +57,36 @@ This visualization also shows us when these people joined the public bitcoin dis
 Craig wright started mid 2014, while Vitalik’s phrases were already noted in 2012.  
 
 
-3) Can we see the clusters of "meaning" depending on the occupation/age/year/gender.
+### Can we find simillarities in speakers' quotes, depending on their occupation?
 
 - Plot a scatter of the embeddings (reduce dimensionality with PCA/UMAP/T-SNE) and color the dots by occution/gender/age
 
 {% include  embeddings.html %}
+
+
+#### Cluster 1 
+Economists say:
+>  "Who cares about bitcoin"
+
+> "Bitcoin remains a major gamble as it is very much an asset that remains in uncharted waters weve simply not experienced this before"
+
+> Economist: "Bitcoin in particular has had i think three hyperinflation episodes this year"
+
+#### Cluster 5
+Businessmen say:
+> "The legitimacy this gives bitcoin as a tradeable asset is very important"
+
+> "I firmly believe that bitcoin and the blockchain can change the world for the better"
+    
+> "I have invested in some bitcoins myself and find it fascinating how a whole new global currency has been created"
+
+#### Cluster 6
+
+Cryptographers:
+> "Any cryptographic function is a one way street"
+
+> "One unintended consequence of quantum computation is breaking some of the cryptographic tools currently underpinning cybersecurity"
+
+> "My recommendation for people who dont have 10 years experience in cryptography is to return to old methods and use the traditional postal service"
+
+> "Cryptography forms the basis for trust online"

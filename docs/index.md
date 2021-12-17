@@ -19,7 +19,15 @@ As we can see, it started in 2008 with a specific group of people which are cryp
 In the year 2013, many lawyers spoke up about blockchain and cryptocurrency.It is an interesting observation since in that year bitcoin witnessed major developments in the legal framework and has received widespread attention from newspapers.  
 In the years 2015 and 2016, the media group made its appearance among the top 5 occupations.  
 
+Now let’s see how fast did the Bitcoin/Cryptocurrency hype spread in different professional groups.
+
 {% include  accumulated_quotation_count_by_occupations.html %}
+
+
+Here we can see that the rate was approximately the same until 2014, and after that businessmen started talking exponentially more… This quite makes sense, since in 2014 the whole world was discussing the event that we mentioned previously - the hack of the biggest crypto exchange. It is believed that there is no such thing as bad publicity, and that nicely plays with what we see here. Even thought the noticeable event was negative, it was an important starting point which drew attention of businesses to this technology, and after that - the topic spread faster and faster in the group.
+
+We can also see that economists’ rate became much steeper in late 2016, since it was the time when bitcoin hit the unheard price of ~$20k. Economist started discussing how volatile it is, or how bitcoin will become the future of human economy. 
+
 
 2) When were the most «Popularity growing» events
 
@@ -35,6 +43,18 @@ We can clearly see in this graph four major peaks: February 2014, September 2015
 
 {% include  accumulated_quotation_share_by_speaker.html %}
 
+We’ve selected some of the noticeable figures in the history of bitcoin. 
+
+Here on the Y axes we see the cumulative share of each speaker’s quotes relative to the general amount of the quotes about our selected topic.
+
+For example if a person says something that goes viral ones, and then is not active, then we would see a decrease of his «importance in the world of Bitcoing discussion».
+
+This is exactly what happened with Mark Karpeles for example. In 2014 his huge crypto exchange was hacked, and lost billions of dollars, and it was a very big deal, lots of noise and media attention. But after this  peak he became relatively less active in his public bitcoin-related discussion, and we notice that his «importance» slowly fades away on the plot above.
+
+On contrary, we see that Tyler Winklevoss is remaining constantly active, and same is true for a well-known Bitcoin advocate Andreas Antonopoulos. They remain on a constant level of relative activity, which means that when the World speaks more about bitcoin, their words spread more as well. 
+
+This visualization also shows us when these people joined the public bitcoin discussion.
+Craig wright started mid 2014, while Vitalik’s phrases were already noted in 2012.  
 
 
 3) Can we see the clusters of "meaning" depending on the occupation/age/year/gender.

@@ -27,7 +27,7 @@ Here we can see that the rate was approximately the same until 2014, and after t
 
 We can also see that economists’ rate became much steeper in late 2016, since it was the time when bitcoin hit the unheard price of ~$20k. Economist started discussing how volatile it is, or how bitcoin will become the future of human economy. 
 
-## Distribution by citizenship
+#### Distribution by citizenship
 {% include speakers_citizenship_pie.html %}
 
 
@@ -43,15 +43,21 @@ We can clearly see in this graph four major peaks: February 2014, September 2015
 - May 2016: Multiple report were published alleging that the creator of bitcoin may be Craig Steven Wright, an Australian entrepreneur and former academic who has worked with K-Mart and the Australian Security Exchange. Then, on 2nd May, Wright publicly declared that he was, indeed, Nakamoto. This declaration created a big buzz in the cryptocurrency community given the position of Wright as one of the biggest figures in the domain.  
 - December 2017: Bitcoin's price briefly reached a new all-time in December 17, nearing $20k, creating a massive reaction in the financial world. As a reaction to the ever growing price of bitcoin, the Software market Steam, announced that it would no longer accept bitcoin as payment for its products, citing slow transactions speeds, price volatility, and high fees for transactions.
 
-{% include  accumulated_quotation_share_by_speaker.html %}
+### Distinguising true crypto guys, from those who just ride the wave, when it's cool 
 
-We’ve selected some of the noticeable figures in the history of bitcoin. 
+We’ve selected some of the noticeable figures in the history of bitcoin and visualized their "importance" in the global crypto-discussion. 
+
+{% include  accumulated_quotation_share_by_speaker.html %}
 
 Here on the Y axes we see the cumulative share of each speaker’s quotes relative to the general amount of the quotes about our selected topic.
 
 For example if a person says something that goes viral ones, and then is not active, then we would see a decrease of his «importance in the world of Bitcoing discussion».
 
 This is exactly what happened with Mark Karpeles for example. In 2014 his huge crypto exchange was hacked, and lost billions of dollars, and it was a very big deal, lots of noise and media attention. But after this  peak he became relatively less active in his public bitcoin-related discussion, and we notice that his «importance» slowly fades away on the plot above.
+
+Simmilar thing can be said about Craig Wright. In 2016 he claimed to be Satoshi Nakomoto, which gave him some clout in the word of crypto, but made him somewhat of "anti-hero". We see that his wasn't any active before that claim, and after the controversial claim, his activity is slowly going down.
+
+![This is an image](https://lh3.googleusercontent.com/a_SP8CsNOgyBNgha-PjVGM3tkt5aNl1847zODqCi0eEkPx7waKrqXONo-nAPo2ssXPH4DsMTmwxyGmOot5akQa6f8Rm8rzme4GjRs4etKGSE0yPXawEJYHww5iLlYBJEBS43-qNj)
 
 On contrary, we see that Tyler Winklevoss is remaining constantly active, and same is true for a well-known Bitcoin advocate Andreas Antonopoulos. They remain on a constant level of relative activity, which means that when the World speaks more about bitcoin, their words spread more as well. 
 
